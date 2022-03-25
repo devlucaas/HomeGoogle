@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(Images/space.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteudo-topo{
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+    margin-right: 18px;
+}
+
+.icones-topo{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 220px;
+    color: white;
+}
+.icones-topo h5{
+    font-size: 12px;
+    font-weight: lighter;
+    cursor: pointer;
+    text-shadow: 2px 2px 0px black;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    text-shadow: 2px 2px 0px black;
+    cursor: pointer;
+}
+
+.circulos{
+    margin: 1px;
+    border-radius: 3px;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+}
+
+.logo-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(150, 105, 105);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+.mid-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+}
+.conteudo-mid  h1{
+    font-size: 80px;
+    color: white;
+    padding-bottom: 30px;
+    text-shadow: 1px 0px 1px black;
+}
+.barradepesquisa{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:550px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50px;
+}
+.barradepesquisa input{
+    width: 500px;
+    height: 45px;
+    border: none;
+    outline: none;
+}
+
+.pesquisar img{
+    width: 15px;
+    margin: 18px;
+}
+.pesquisar ::placeholder{
+    letter-spacing: 1px;
+    color: rgb(54, 54, 54);
+}
+#microfone{
+    width: 35px;
+    margin: 10px;
+}
+
+.atalhos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.icone-atalhos img{
+    display: flex;
+    width: 20px;
+    margin: 15px;
+   
+}
+
+.icone-atalhos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icone-atalhos:hover{
+    transform: scale(1.10);
+}
+.add{
+    width: 50px;
+    height: 50px;
+    color: black;
+    text-shadow: 0px  0px 0px;
+}
+.adicionar{
+    font-size: 30px
+}
+
+#btc{
+    width: 50px;
+    height: 50px;
+}
+
+#btc img{
+    width: 25px;
+    height: 25px;
+}
+
+.atalhos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-atalhos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+    font-size: 13px;
+    margin: 10px;
+}
+
+@media (max-width:550px){
+    .barradepesquisa{
+        width: 400px;
+    }
+}
+
+@media (max-width:400px){
+    .barradepesquisa{
+        width: 350px;
+    }
+}
+@media (max-width:350px){
+    .barradepesquisa{
+        width: 330px;
+    }
+}
+
+@media (max-width:330px){
+    .barradepesquisa{
+        width: 320px;
+    }
+    .conteudo-mid h1{
+        font-size: 70px;
+    }
+}
